@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 import { extendTheme, ThemeOverride } from "@chakra-ui/react"
 import Badge from "./components/badge"
 import Button from "./components/button"
