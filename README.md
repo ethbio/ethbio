@@ -10,12 +10,15 @@
 </p>
 
 
+
   # What's Ethbio?
 
   We've all seen one page bios of users that showoff their **links**. Ethbio however takes it to a new level, with the help of web3 technologies it makes showing 
   off your __**NFTS**__ much more easier.
 
   [This project finished 3rd overall in the CYF Hackathon](https://devpost.com/software/ethbio)
+
+  **This is the rewrite branch! We're currently re-building this project from scratch for actual launch!**
   
   ## Features
 
@@ -71,36 +74,3 @@ To run it in `PRODUCTION` use:
 npm run build
 npm run start
 ```
-# Screenshots
-
-- The Landing Page
- 
-![landing page](https://media.discordapp.net/attachments/930053553400217643/932283852725055498/Screenshot_2022-01-16_at_8.13.07_PM.png?width=873&height=454)
-
-- The User Page
-
-![user page](https://media.discordapp.net/attachments/930053553400217643/932283957578440744/Screenshot_2022-01-16_at_8.13.32_PM.png?width=873&height=454)
-
-![user page nfts](https://media.discordapp.net/attachments/930053553400217643/932284004135223316/Screenshot_2022-01-16_at_8.13.43_PM.png?width=873&height=454)
-
-- Discover Page
-
-![discovery](https://media.discordapp.net/attachments/930053553400217643/932284102651031652/Screenshot_2022-01-16_at_8.14.07_PM.png?width=873&height=454)
-
-- Search Indexing
-
-![indexing](https://media.discordapp.net/attachments/930053553400217643/932284169646653460/Screenshot_2022-01-16_at_8.14.23_PM.png?width=873&height=454)
-
-- Unauthenticated Page
-
-![no auth](https://media.discordapp.net/attachments/930053553400217643/932284250806419496/Screenshot_2022-01-16_at_8.14.42_PM.png?width=873&height=454)
-
-- Not Found Page (Discover)
-
-
-![not found](https://media.discordapp.net/attachments/930053553400217643/932284382746656768/Screenshot_2022-01-16_at_8.15.13_PM.png?width=873&height=454)
-
-- Profile Edit Page
-
-
-![profile edit](https://media.discordapp.net/attachments/930053553400217643/932284719733825597/Screenshot_2022-01-16_at_8.16.33_PM.png?width=873&height=454)
