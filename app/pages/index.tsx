@@ -3,11 +3,10 @@ import { Image, BlitzPage } from "blitz"
 import * as React from "react"
 import { Head } from "blitz"
 
-
 const Home: BlitzPage = () => {
   return (
     <div className="w-screen h-screen bg-[#10061E] flex justify-center items-center lg:flex-row flex-col">
-      <div className="h-full w-full items-center justify-center  p-[32px] flex flex-col">
+      <div className="h-full w-full justify-center md:items-center  p-[32px] flex flex-col">
         <h1 className="font-montserrat font-bold md:text-[80px] lg:text-[90px] xl:text-[120px] text-[40px] text-center lg:text-left text-white">
           Coming Soon
         </h1>
@@ -25,8 +24,8 @@ const Home: BlitzPage = () => {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M92.1586 6.09712C109.025 8.07234 126.507 8.51719 140.303 17.6634C154.133 26.8319 161.231 41.5421 167.581 56.0999C174.391 71.7109 184.129 88.4775 178.124 104.366C172.144 120.189 151.496 125.373 137.397 135.968C122.119 147.448 111.852 167.98 92.1586 168.962C72.4376 169.946 59.0226 151.56 43.213 140.665C27.6912 129.968 5.55991 123.282 0.77723 105.986C-3.98553 88.7616 14.4683 74.1068 20.1085 57.1085C25.9063 39.6352 18.473 16.3772 34.2063 5.23806C49.9042 -5.87601 72.5124 3.7963 92.1586 6.09712Z"
             fill="url(#paint0_linear_2_10)"
           />
@@ -39,8 +38,8 @@ const Home: BlitzPage = () => {
               y2="169"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#2C4EFF" />
-              <stop offset="1" stop-color="#B367FE" stop-opacity="0" />
+              <stop stopColor="#2C4EFF" />
+              <stop offset="1" stopColor="#B367FE" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
