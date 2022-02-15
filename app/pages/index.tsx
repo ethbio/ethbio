@@ -3,6 +3,9 @@ import { Image, BlitzPage } from "blitz"
 import * as React from "react"
 import { Head } from "blitz"
 
+
+// this is a test commit
+
 const Home: BlitzPage = () => {
   return (
     <div className="w-screen h-screen bg-[#10061E] flex justify-center items-center lg:flex-row flex-col">
