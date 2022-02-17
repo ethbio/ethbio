@@ -14,6 +14,10 @@ export default function App({ Component, pageProps }: AppProps) {
   const getLayout = Component.getLayout || ((page) => page)
 
   return (
+    <ErrorBoundary
+      FallbackComponent={RootErrorFallback}
+      onReset={useQueryErrorResetBoundary().reset}
+    >
     <Head>
       <meta name="og:description" content="A one-page personal bio, powered by web 3.0 technology." />
       <meta name="og:url" content="https://ethbio.xyz" />
@@ -21,10 +25,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <meta name="og:site_name" content="Ethbio"/>
       <meta name="og:title" content="Coming Soon"/>     
    </Head>
-    <ErrorBoundary
-      FallbackComponent={RootErrorFallback}
-      onReset={useQueryErrorResetBoundary().reset}
-    >
       <ChakraProvider>
       {getLayout(<Component {...pageProps} />)}
       </ChakraProvider>
