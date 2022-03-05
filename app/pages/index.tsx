@@ -5,18 +5,19 @@ import { Head } from "blitz"
 
 const Home: BlitzPage = () => {
   return (
-    <div className="w-screen h-screen bg-[#10061E] flex justify-center items-center lg:flex-row flex-col">
+    <div className="w-screen h-screen bg-[#000000] flex justify-center items-center lg:flex-row flex-col">
       <div className="h-full w-full justify-center md:items-center  p-[32px] flex flex-col">
-        <h1 className="font-montserrat font-bold md:text-[80px] lg:text-[90px] xl:text-[120px] text-[40px] text-center lg:text-left text-white">
+        <h1 className="font-montserrat font-bold md:text-[80px] lg:text-[90px] xl:text-[120px] text-[40px] text-center lg:text-left text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
           Coming Soon
         </h1>
-        <h2 className="text-white font-poppins md:text-[30px] lg:text-[40px] text-[20px] text-center lg:text-left">
-          The one-page personal bio <br /> powered by web3.0 technology.
+        <h2 className="text-white  font-poppins md:text-[30px] lg:text-[40px] text-[20px] text-center lg:text-left">
+          The one-page personal bio <br />{" "}
+          <span className="moving_background_gradient">powered by web3.0 technology </span>.
         </h2>
       </div>
       <div className="h-full w-full flex justify-center items-center">
         <svg
-          className="blur m-[20px]"
+          className="blur m-[20px] animate-pulse duration-1000"
           width="576"
           height="540.8"
           viewBox="0 0 180 169"
