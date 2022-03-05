@@ -21,7 +21,7 @@ const Home: BlitzPage = () => {
           <a className="mr-[10px]" href="https://github.com/ethbio ">
             <Image alt="" src="/assets/github.png" width={16} height={16} />
           </a>
-          <a href="https://twitter.com/BasicallyEmail">
+          <a href="https://twitter.com/didNotSetUpTwitterYet">
             <Image alt="" src="/assets/twitter.png" width={16} height={16} />
           </a>
         </div>
