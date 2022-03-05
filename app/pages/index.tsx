@@ -14,6 +14,17 @@ const Home: BlitzPage = () => {
           The one-page personal bio <br />{" "}
           <span className="moving_background_gradient">powered by web3.0 technology </span>.
         </h2>
+        <div className="flex mt-[10px]">
+          <a className="mr-[10px]" href="https://dsc.gg/ethbio">
+            <Image alt="" src="/assets/discord.png" width={20} height={16} />
+          </a>
+          <a className="mr-[10px]" href="https://github.com/ethbio ">
+            <Image alt="" src="/assets/github.png" width={16} height={16} />
+          </a>
+          <a href="https://twitter.com/BasicallyEmail">
+            <Image alt="" src="/assets/twitter.png" width={16} height={16} />
+          </a>
+        </div>
       </div>
       <div className="h-full w-full flex justify-center items-center">
         <svg
