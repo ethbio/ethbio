@@ -12,17 +12,17 @@ const Home: BlitzPage = () => {
         </h1>
         <h2 className="text-white  font-poppins md:text-[30px] lg:text-[40px] text-[20px] text-center lg:text-left">
           The one-page personal bio <br />{" "}
-          <span className="moving_background_gradient">powered by web3.0 technology </span>.
+          <span className="moving_background_gradient">powered by web3.0 technology </span>
         </h2>
         <div className="flex mt-[10px]">
           <a className="mr-[10px]" href="https://dsc.gg/ethbio">
-            <Image alt="" src="/assets/discord.png" width={20} height={16} />
+            <Image alt="" src="/discord.png" width={20} height={16} />
           </a>
           <a className="mr-[10px]" href="https://github.com/ethbio ">
-            <Image alt="" src="/assets/github.png" width={16} height={16} />
+            <Image alt="" src="/github.png" width={16} height={16} />
           </a>
           <a href="https://twitter.com/didNotSetUpTwitterYet">
-            <Image alt="" src="/assets/twitter.png" width={16} height={16} />
+            <Image alt="" src="/twitter.png" width={16} height={16} />
           </a>
         </div>
       </div>
