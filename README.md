@@ -74,5 +74,3 @@ To run it in `PRODUCTION` use:
 npm run build
 npm run start
 ```
-
-Test-
