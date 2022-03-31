@@ -1,17 +1,20 @@
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/929049777285505034/929328086313484298/Untitled_design.png?width=300&height=300" />
-  <br>
+  <a href="https://ethbio.xyz/">
+    <img src="https://raw.githubusercontent.com/ethbio/.github/master/assets/Ethbio.png" width="200px" />
+  </a>
   <h1 align="center"> Ethbio </h1>
+  
   <p align="center">
   <a href="https://github.com/ethbio/ethbio/">Github</a> |
   <a href="https://github.com/ethbio/ethbio#screenshots">Screenshots</a> |
-  <a href="https://github.com/ethbio/ethbio">Discord Server(Soon)</a>
+  <a href="https://discord.gg/xwD2qu5JDx">Discord Server</a>
   </p>
+  
 </p>
 
 
 
-  # What's Ethbio?
+  # ❓ What's Ethbio?
 
   We've all seen one page bios of users that showoff their **links**. Ethbio however takes it to a new level, with the help of web3 technologies it makes showing 
   off your __**NFTS**__ much more easier.
@@ -20,7 +23,7 @@
 
   **This is the rewrite branch! We're currently re-building this project from scratch for actual launch!**
   
-  ## Features
+  ## ✨ Features
 
 - show of your nft assets 
 - show all of your links and social profiles
@@ -28,14 +31,14 @@
 - One link for all your NFT and Social Media needs
 - Share your ethereum address along side all your NFTs and socials
 
-## Tehnologies used
+## 💻 Tehnologies used
 
-- [**Next.js**](https://nextjs.org) - (Frontend) React framework
-- [**Moralis**](https://moralis.io) - (Web3 API) Web3 Development Platform
-- [**MongoDB**](https://mongodb.com) - (Backend) Database
-- [**Express.js**](https://expressjs.com) - (Backend) Web Framework
+- [**Next.js**](https://nextjs.org) - `Frontend` React framework
+- [**Moralis**](https://moralis.io) - `Web3 API` Web3 Development Platform
+- [**MongoDB**](https://mongodb.com) - `Backend` Database
+- [**Express.js**](https://expressjs.com) - `Backend` Web Framework
 
-## Building Locally
+## 🛠️ Building Locally
 
 Building Ethbio locally is pretty easy.
 
