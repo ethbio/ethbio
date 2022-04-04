@@ -96,6 +96,39 @@ export default function Landing() {
             </h1>
           </div>
         </div>
+
+        <div className="mt-[140px] flex justify-center items-center flex-col ">
+          <h1 className="font-inter text-white text-[34px] leading-[42.5px] text-center ">
+            What are you waiting for?
+          </h1>
+          <h1 className="text-center font-inter text-[#ffffffcc] text-[22px] leading-[36px] mt-[11px]">
+            Sign up and publish your EthBio™ in seconds, no selling kidneys for gas fees required.
+          </h1>
+          <button className="bg-white rounded-[8px] py-[12px] mt-[28px] px-[38px]">
+            <h1 className="text-black font-inter">Build your Bio in minutes</h1>
+          </button>
+
+          <h1 className="font-space text-[14px] text-[#ffffffa6] mt-[33px]">
+            Need support? Email <span className="text-[#00F6FF] ml-[10px]"> help@ethbio.xyz</span>
+          </h1>
+
+          <h1 className="font-space text-[14px] text-[#9B9BFF] mt-[16px]">
+            Or, join us on Discord 👾
+          </h1>
+        </div>
+
+        <div className="mt-[140px] mb-[56px] w-full flex items-center pl-[10%]">
+          <h1 className="font-space text-[#ffffffcc] text-[11px] leading-[14px]">© EthBio 2022</h1>
+          <h1 className="font-space text-[#ffffffcc] text-[12px] leading-[16px] ml-[10%]">•</h1>
+          <h1 className="font-space text-[#ffffffcc] text-[14px] leading-[19px] ml-[16px]">
+            Find us on Twitter
+          </h1>
+          <div className="w-[50%] ">
+            <h1 className="font-space text-[#ffffffcc] text-[14px] leading-[19px] float-right ">
+              Work done in localhost:3000
+            </h1>
+          </div>
+        </div>
       </div>
     </div>
   )

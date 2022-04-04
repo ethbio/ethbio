@@ -7,6 +7,7 @@ module.exports = {
       montserrat: ["Montserrat", "sans-serif"],
       inter: ["Inter", "sans-serif"],
       inria: ["Inria \\Sans", "sans-serif"],
+      space: ["Space \\Mono", "sans-serif"],
     },
     extend: {},
   },
