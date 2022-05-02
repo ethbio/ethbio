@@ -8,9 +8,10 @@ export default function Landing() {
         <div className="float-right mt-[25px] flex justify-center items-center">
           <h1 className="font-inter text-[#ffffffcc]">Pricing (coming soon)</h1>
           <h1 className="font-inter text-[#ffffffcc] ml-[40px]">Log In</h1>
-          <button className="bg-white rounded-[8px] py-[12px] ml-[28px] px-[18px]">
+          <a href="/api/auth/discord" ><button className="bg-white rounded-[8px] py-[12px] ml-[28px] px-[18px]">
             <h1 className="text-black font-inter">Build your Bio On ETH</h1>
           </button>
+          </a>
         </div>
       </div>
 

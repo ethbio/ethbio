@@ -29,6 +29,7 @@
     "autoprefixer": "10.x",
     "blitz": "^0.45.2",
     "framer-motion": "5.6.0",
+    "passport-discord": "^0.1.4",
     "postcss": "8.x",
     "react": "18.0.0-beta-149b420f6-20211119",
     "react-dom": "18.0.0-alpha-5ca4b0433-20211020"
